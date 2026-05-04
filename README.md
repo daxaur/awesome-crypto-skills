@@ -32,6 +32,31 @@ Skills for trading, swaps, lending, yield farming, and DeFi automation.
 - **[CryptoSkills: compound](https://github.com/0xinit/cryptoskills)** - Compound lending protocol integration
 - **[CryptoSkills: curve](https://github.com/0xinit/cryptoskills)** - Curve stableswap and pool operations
 - **[CryptoSkills: lido](https://github.com/0xinit/cryptoskills)** - Lido liquid staking (stETH)
+- **[OKX Plugin Store: aave-v3-plugin](https://github.com/okx/plugin-store)** - Aave V3 lending and borrowing via OKX
+- **[OKX Plugin Store: compound-v3-plugin](https://github.com/okx/plugin-store)** - Compound V3 lending via OKX
+- **[OKX Plugin Store: lido-plugin](https://github.com/okx/plugin-store)** - Lido staking via OKX
+- **[OKX Plugin Store: hyperliquid-plugin](https://github.com/okx/plugin-store)** - Hyperliquid perpetuals trading
+- **[OKX Plugin Store: gmx-v2-plugin](https://github.com/okx/plugin-store)** - GMX V2 perpetuals trading
+- **[OKX Plugin Store: polymarket-plugin](https://github.com/okx/plugin-store)** - Polymarket prediction markets
+- **[OKX Plugin Store: uniswap-ai](https://github.com/okx/plugin-store)** - Uniswap AI-powered swaps
+- **[OKX Plugin Store: raydium-plugin](https://github.com/okx/plugin-store)** - Raydium DEX on Solana
+- **[OKX Plugin Store: meteora-plugin](https://github.com/okx/plugin-store)** - Meteora liquidity pools
+- **[OKX Plugin Store: orca-plugin](https://github.com/okx/plugin-store)** - Orca DEX on Solana
+- **[OKX Plugin Store: pancakeswap-v2-plugin](https://github.com/okx/plugin-store)** - PancakeSwap V2 on BSC
+- **[OKX Plugin Store: pancakeswap-v3-plugin](https://github.com/okx/plugin-store)** - PancakeSwap V3 on BSC
+- **[OKX Plugin Store: pancakeswap-clmm-plugin](https://github.com/okx/plugin-store)** - PancakeSwap CLMM concentrated liquidity
+- **[OKX Plugin Store: curve-plugin](https://github.com/okx/plugin-store)** - Curve Finance pools
+- **[OKX Plugin Store: velodrome-v2-plugin](https://github.com/okx/plugin-store)** - Velodrome V2 on Optimism
+- **[OKX Plugin Store: morpho-plugin](https://github.com/okx/plugin-store)** - Morpho lending optimization
+- **[OKX Plugin Store: pendle-plugin](https://github.com/okx/plugin-store)** - Pendle yield trading
+- **[OKX Plugin Store: etherfi-plugin](https://github.com/okx/plugin-store)** - EtherFi liquid restaking
+- **[OKX Plugin Store: kamino-lend-plugin](https://github.com/okx/plugin-store)** - Kamino lending on Solana
+- **[OKX Plugin Store: kamino-liquidity-plugin](https://github.com/okx/plugin-store)** - Kamino liquidity management
+- **[OKX Plugin Store: pump-fun-plugin](https://github.com/okx/plugin-store)** - Pump.fun meme token launchpad
+- **[OKX Plugin Store: clanker-plugin](https://github.com/okx/plugin-store)** - Clanker token creation
+- **[OKX Plugin Store: meme-trench-scanner](https://github.com/okx/plugin-store)** - Scan for trending meme tokens
+- **[OKX Plugin Store: smart-money-signal-copy-trade](https://github.com/okx/plugin-store)** - Copy trade smart money signals
+- **[OKX Plugin Store: top-rank-tokens-sniper](https://github.com/okx/plugin-store)** - Snipe top ranked tokens
 - **[0x Agent Skills: 0x-api](https://github.com/0xProject/0x-ai)** - Token swaps using 0x Swap and Gasless APIs on any EVM chain
 - **[EmblemCompany: emblem-ai](https://github.com/emblemcompany/agent-skills)** - EmblemAI crypto tooling: swaps, DeFi, NFTs across 7 chains
 
@@ -128,6 +153,7 @@ Repositories containing multiple installable crypto skills.
 - **[kukapay/crypto-skills](https://github.com/kukapay/crypto-skills)** - 6 skills: evm-swiss-knife, market-sentiment, meme-scout, token-minter, trading-strategist, yield-opportunities
 - **[Binance Skills Hub](https://github.com/binance/binance-skills-hub)** - 10+ skills: binance, binance-web3, onchain-pay, meme-rush, crypto-market-rank, query-token-info, query-token-audit, query-address-info
 - **[CryptoSkills](https://github.com/0xinit/cryptoskills)** - 95 skills: uniswap, aave, compound, curve, lido, foundry, hardhat, solidity-security, slither, echidna, and more
+- **[OKX Plugin Store](https://github.com/okx/plugin-store)** - 25+ skills: aave-v3, compound-v3, hyperliquid, gmx-v2, polymarket, uniswap, raydium, meteora, orca, pancakeswap, curve, morpho, pendle, pump-fun, and more
 - **[Aptos Agent Skills](https://github.com/aptos-labs/aptos-agent-skills)** - 8 skills: write-contracts, generate-tests, security-audit, deploy-contracts, search-aptos-examples, analyze-gas-optimization, modernize-move, use-ts-sdk
 - **[EmblemCompany/Agent-skills](https://github.com/emblemcompany/agent-skills)** - 4 skills: emblem-ai, emblem-ai-react, emblem-ai-agent-wallet, emblem-ai-prompt-examples
 - **[dAAAb/agent-skills](https://github.com/dAAAb/agent-skills)** - 10+ skills: base-wallet, basename-agent, nad-wallet, nadname-agent, walletconnect-agent, basemail, nadmail, ethermail
@@ -143,9 +169,11 @@ Repositories containing multiple installable crypto skills.
 # Install from GitHub
 npx skills add kukapay/crypto-skills
 npx skills add https://github.com/binance/binance-skills-hub
+npx skills add okx/plugin-store
 
 # Install specific skill
 npx skills add kukapay/crypto-skills --skill evm-swiss-knife
+npx skills add okx/plugin-store --skill hyperliquid-plugin
 
 # Install to specific agent
 npx skills add kukapay/crypto-skills -a claude-code
