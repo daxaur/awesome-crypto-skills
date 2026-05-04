@@ -4,6 +4,20 @@ A curated list of open-source AI agent skills for cryptocurrency, Web3, and bloc
 
 These are installable SKILL.md-based skills that give your AI agent crypto superpowers. Install with one command and your agent can trade tokens, analyze markets, deploy contracts, and more.
 
+## Caution
+
+**These skills are not audited.** Use at your own risk.
+
+- Skills listed here are community-contributed and open-source. They have **not** undergone formal security audits.
+- Skills that handle private keys, execute transactions, or interact with DeFi protocols can **result in loss of funds** if misused or compromised.
+- Always review a skill's SKILL.md and source code before installing, especially for skills that require wallet access or API keys.
+- Some skills may contain bugs, outdated contract addresses, or unsafe patterns. Verify contract addresses on-chain before interacting.
+- In April 2026, researchers found that ~12% of skills on community registries contained malicious code (crypto drainers, backdoors). Prefer skills from official sources (Binance, OKX, Coinbase, Uniswap, etc.) when possible.
+- Never share private keys, seed phrases, or API secrets with any skill or agent.
+- Start with small amounts on testnets before using skills with real funds.
+
+By using any skill from this list, you acknowledge that you understand the risks and take full responsibility for any outcomes.
+
 ## Contents
 
 - [Trading & DeFi](#trading--defi)
